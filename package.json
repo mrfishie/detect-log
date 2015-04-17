@@ -1,6 +1,6 @@
 {
   "name": "detect-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect any calls to console.log (or similar) and alerts you",
   "main": "index.js",
   "scripts": {
