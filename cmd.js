@@ -1,3 +1,5 @@
+#!/usr/bin/env: node
+
 var detect = require('./');
 
 var glob = '**/*.js';
