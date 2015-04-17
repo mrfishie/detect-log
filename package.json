@@ -1,0 +1,36 @@
+{
+  "name": "detect-log",
+  "version": "0.1.0",
+  "description": "Detect any calls to console.log (or similar) and alerts you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "detect": "./cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrfishie/detect-log.git"
+  },
+  "keywords": [
+    "detect",
+    "console",
+    "log",
+    "alert",
+    "ci",
+    "testing"
+  ],
+  "author": "mrfishie <me@mrfishie.com> (http://mrfishie.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrfishie/detect-log/issues"
+  },
+  "homepage": "https://github.com/mrfishie/detect-log",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "esprima": "^2.1.0",
+    "esprima-walk": "^0.1.0",
+    "glob": "^5.0.5"
+  }
+}
