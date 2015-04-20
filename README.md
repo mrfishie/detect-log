@@ -29,14 +29,20 @@ If any calls are found or an error occurs, the process will exit with code 1 to 
 
 ## API usage
 
-	var detect = require('detect-log');
+```js
+var detect = require('detect-log');
+```
 
-**`String[] detect.names`** - a list of all names to search for on the console object. Default is
+### String[] detect.names
+A list of all names to search for on the console object. Default is
 
-	['assert', 'count', 'debug', 'dir', 'error', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-     'profile', 'profileEnd', 'table', 'time', 'timeEnd', 'trace', 'warn']
+```js
+['assert', 'count', 'debug', 'dir', 'error', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+	'profile', 'profileEnd', 'table', 'time', 'timeEnd', 'trace', 'warn']
+```
 
-**`Function detect.log`** - the function to use to output messages with detect.logAll. Default is console.warn.
+### Function detect.log
+The function to use to output messages with detect.logAll. Default is console.warn.
 
 ### detect.logAll(String files[, Function cb<Error|null, Array>])
 
